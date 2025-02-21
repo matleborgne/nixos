@@ -10,7 +10,7 @@ in
   environment.systemPackages = with pkgs; [
     unstable.libheif
     libimobiledevice
-    ifuse # optional, to mount using 'ifuse /home/mleborgne/iphone'
+    ifuse # optional, to mount using 'ifuse /home/$user/iphone'
   ];
 
 }
