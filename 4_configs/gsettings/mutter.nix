@@ -14,6 +14,16 @@ in
 #-------------------------------
 # Insert DCONF here
 #-------------------------------
+
+        "org/gnome/desktop/peripherals/touchpad" = {
+          tap-to-click = true;
+          speed = .25;
+        };
+
+        "org/gnome/desktop/peripherals/mouse" = {
+          speed = .25;
+        };
+
         "org/gnome/mutter" = {
           dynamic-workspaces = true;
           workspaces-only-on-primary = true;
